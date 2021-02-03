@@ -1,0 +1,7 @@
+rootProject.name = 'eladmin'
+include 'eladmin-generator'
+include 'eladmin-logging'
+include 'eladmin-system'
+include 'eladmin-tools'
+include 'eladmin-common'
+

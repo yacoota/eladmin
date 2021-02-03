@@ -1,0 +1,12 @@
+ext {
+    mail_version = '1.5.0-b01'
+    qiniu_version = '[7.2.0, 7.2.99]'
+    alipay_version = '4.9.153.ALL'
+}
+dependencies {
+    compile project(':eladmin-logging')
+
+    implementation "javax.mail:mail:${mail_version}"
+    implementation "com.qiniu:qiniu-java-sdk:${qiniu_version}"
+    implementation "com.alipay.sdk:alipay-sdk-java:${alipay_version}"
+}
